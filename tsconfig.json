@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              # Целевая версия JavaScript
+    "module": "ESNext",           # Используем ES-модули для клиентского кода
+    "outDir": "./dist",           # Папка для скомпилированных файлов
+    "rootDir": "./src",           # Папка с исходными файлами
+    "strict": true,               # Включение строгой типизации
+    "esModuleInterop": true,      # Совместимость с CommonJS и ES-модулями
+    "skipLibCheck": true          # Пропуск проверки типов в библиотеках
+  },
+  "include": ["src/**/*", "public/app.ts"]         # Включить все файлы в папке src
+}
