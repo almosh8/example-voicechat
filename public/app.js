@@ -5,7 +5,7 @@ const micStatus = document.getElementById('micStatus');
 let localStream;
 let peerConnection;
 let isMicOn = false; // Состояние микрофона (вкл/выкл)
-const socket = io('http://localhost:3000'); // Подключение к серверу
+const socket = io('https://example-voicechat.onrender.com'); // Подключение к серверу
 
 // Конфигурация ICE-серверов (используйте свои или публичные)
 const configuration = {
